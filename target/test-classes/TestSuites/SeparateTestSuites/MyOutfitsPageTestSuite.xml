@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MyOutfitsPageTestSuite" verbose="1">
+	
+	<test name="MyOutfitsPageTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="index.myoutfitspagetests.MyOutfitsPageTests">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

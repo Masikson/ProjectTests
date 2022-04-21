@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FullUITestSuite" class="navigator-link">
+              <span class="suite-name border-passed">FullUITestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FullUITestSuite" class="navigator-link ">
+                    <span>C:\Users\Magda Leonow\Downloads\ProjectTests\src\test\resources\TestSuites\FullUITestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FullUITestSuite" class="navigator-link ">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FullUITestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FullUITestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FullUITestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FullUITestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FullUITestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FullUITestSuite" class="hide-methods passed suite-FullUITestSuite"> (hide)</a> <!-- hide-methods passed suite-FullUITestSuite -->
+                      <a href="#" panel-name="suite-FullUITestSuite" class="show-methods passed suite-FullUITestSuite"> (show)</a> <!-- show-methods passed suite-FullUITestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-FullUITestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.addtoclosettests.AddToClosetTests" class="method navigator-link" hash-for-method="addToClosetTest(1, top5.png, tops, hot, casual)">addToClosetTest(1, top5.png, tops, hot, casual)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.addtoclosettests.AddToClosetTests" class="method navigator-link" hash-for-method="addToClosetTest(2, shoes8.png, shoes, all, party)">addToClosetTest(2, shoes8.png, shoes, all, party)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.addtoclosettests.AddToClosetTests" class="method navigator-link" hash-for-method="addToClosetTest(3, skirt3.png, bottoms, warm, all)">addToClosetTest(3, skirt3.png, bottoms, warm, all)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.chooseoutfittests.ChooseOutfitDressTests" class="method navigator-link" hash-for-method="chooseOutfitDressTest({no=1, dressnumber=2, weather=warm, shoesnumber=2, type=dresses, event=casual})">chooseOutfitDressTest({no=1, dressnumber=2, weather=warm, shoesnumber=2, type=dresses, event=casual})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.chooseoutfittests.ChooseOutfitDressTests" class="method navigator-link" hash-for-method="chooseOutfitDressTest({no=2, dressnumber=1, weather=all, shoesnumber=1, type=dresses, event=office})">chooseOutfitDressTest({no=2, dressnumber=1, weather=all, shoesnumber=1, type=dresses, event=office})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.chooseoutfittests.ChooseOutfitTopBottomsTests" class="method navigator-link" hash-for-method="chooseOutfitTopBottomsTest({no=1, bottomnumber=2, weather=cold, topnumber=1, shoesnumber=1, type=tops and bottoms, event=party})">chooseOutfitTopBottomsTest({no=1, bottomnumber=2, weather=cold, topnumber=1, shoesnumber=1, type=tops and bottoms, event=party})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.chooseoutfittests.ChooseOutfitTopBottomsTests" class="method navigator-link" hash-for-method="chooseOutfitTopBottomsTest({no=2, bottomnumber=1, weather=hot, topnumber=5, shoesnumber=2, type=tops and bottoms, event=all})">chooseOutfitTopBottomsTest({no=2, bottomnumber=1, weather=hot, topnumber=5, shoesnumber=2, type=tops and bottoms, event=all})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.getinspiredpagetests.GetInspiredPageTests" class="method navigator-link" hash-for-method="getInspiredPageTest">getInspiredPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.logouttests.LogOutTests" class="method navigator-link" hash-for-method="logInTest">logInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.loginpagetests.PositiveLogInTests" class="method navigator-link" hash-for-method="logInTest">logInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.myoutfitspagetests.MyOutfitsPageTests" class="method navigator-link" hash-for-method="myOutfitsPageTest">myOutfitsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.loginpagetests.NegativeLogInTests" class="method navigator-link" hash-for-method="negativeLogInTest({no=4, description=empty username, password=qq, expectedMessage=must provide username, username=})">negativeLogInTest({no=4, description=empty username, password=qq, expectedMessage=must provide username, username=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.loginpagetests.NegativeLogInTests" class="method navigator-link" hash-for-method="negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=invalid username ...)">negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=invalid username ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.loginpagetests.NegativeLogInTests" class="method navigator-link" hash-for-method="negativeLogInTest({no=1, description=incorrect username, password=qq, expectedMessage=invalid username and/or password...)">negativeLogInTest({no=1, description=incorrect username, password=qq, expectedMessage=invalid username and/or password...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.loginpagetests.NegativeLogInTests" class="method navigator-link" hash-for-method="negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=inva...)">negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=inva...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FullUITestSuite" title="index.loginpagetests.NegativeLogInTests" class="method navigator-link" hash-for-method="negativeLogInTest({no=5, description=empty password, password=, expectedMessage=must provide password, username=Masia})">negativeLogInTest({no=5, description=empty password, password=, expectedMessage=must provide password, username=Masia})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FullUITestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FullUITestSuite" class="panel FullUITestSuite">
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">index.addtoclosettests.AddToClosetTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToClosetTest(1, top5.png, tops, hot, casual)">
+                  </a> <!-- addToClosetTest(1, top5.png, tops, hot, casual) -->
+                  <span class="method-name">addToClosetTest</span>
+                  <span class="parameters">(1, top5.png, tops, hot, casual)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToClosetTest(2, shoes8.png, shoes, all, party)">
+                  </a> <!-- addToClosetTest(2, shoes8.png, shoes, all, party) -->
+                  <span class="method-name">addToClosetTest</span>
+                  <span class="parameters">(2, shoes8.png, shoes, all, party)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToClosetTest(3, skirt3.png, bottoms, warm, all)">
+                  </a> <!-- addToClosetTest(3, skirt3.png, bottoms, warm, all) -->
+                  <span class="method-name">addToClosetTest</span>
+                  <span class="parameters">(3, skirt3.png, bottoms, warm, all)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">index.logouttests.LogOutTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInTest">
+                  </a> <!-- logInTest -->
+                  <span class="method-name">logInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">index.loginpagetests.PositiveLogInTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInTest">
+                  </a> <!-- logInTest -->
+                  <span class="method-name">logInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">index.chooseoutfittests.ChooseOutfitDressTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chooseOutfitDressTest({no=1, dressnumber=2, weather=warm, shoesnumber=2, type=dresses, event=casual})">
+                  </a> <!-- chooseOutfitDressTest({no=1, dressnumber=2, weather=warm, shoesnumber=2, type=dresses, event=casual}) -->
+                  <span class="method-name">chooseOutfitDressTest</span>
+                  <span class="parameters">({no=1, dressnumber=2, weather=warm, shoesnumber=2, type=dresses, event=casual})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chooseOutfitDressTest({no=2, dressnumber=1, weather=all, shoesnumber=1, type=dresses, event=office})">
+                  </a> <!-- chooseOutfitDressTest({no=2, dressnumber=1, weather=all, shoesnumber=1, type=dresses, event=office}) -->
+                  <span class="method-name">chooseOutfitDressTest</span>
+                  <span class="parameters">({no=2, dressnumber=1, weather=all, shoesnumber=1, type=dresses, event=office})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">index.chooseoutfittests.ChooseOutfitTopBottomsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chooseOutfitTopBottomsTest({no=1, bottomnumber=2, weather=cold, topnumber=1, shoesnumber=1, type=tops and bottoms, event=party})">
+                  </a> <!-- chooseOutfitTopBottomsTest({no=1, bottomnumber=2, weather=cold, topnumber=1, shoesnumber=1, type=tops and bottoms, event=party}) -->
+                  <span class="method-name">chooseOutfitTopBottomsTest</span>
+                  <span class="parameters">({no=1, bottomnumber=2, weather=cold, topnumber=1, shoesnumber=1, type=tops and bottoms, event=party})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chooseOutfitTopBottomsTest({no=2, bottomnumber=1, weather=hot, topnumber=5, shoesnumber=2, type=tops and bottoms, event=all})">
+                  </a> <!-- chooseOutfitTopBottomsTest({no=2, bottomnumber=1, weather=hot, topnumber=5, shoesnumber=2, type=tops and bottoms, event=all}) -->
+                  <span class="method-name">chooseOutfitTopBottomsTest</span>
+                  <span class="parameters">({no=2, bottomnumber=1, weather=hot, topnumber=5, shoesnumber=2, type=tops and bottoms, event=all})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">index.myoutfitspagetests.MyOutfitsPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="myOutfitsPageTest">
+                  </a> <!-- myOutfitsPageTest -->
+                  <span class="method-name">myOutfitsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">index.getinspiredpagetests.GetInspiredPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getInspiredPageTest">
+                  </a> <!-- getInspiredPageTest -->
+                  <span class="method-name">getInspiredPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+          <div class="suite-FullUITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">index.loginpagetests.NegativeLogInTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=4, description=empty username, password=qq, expectedMessage=must provide username, username=})">
+                  </a> <!-- negativeLogInTest({no=4, description=empty username, password=qq, expectedMessage=must provide username, username=}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=4, description=empty username, password=qq, expectedMessage=must provide username, username=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=invalid username ...)">
+                  </a> <!-- negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=invalid username ...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=invalid username and/or password, username=Masia})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=1, description=incorrect username, password=qq, expectedMessage=invalid username and/or password...)">
+                  </a> <!-- negativeLogInTest({no=1, description=incorrect username, password=qq, expectedMessage=invalid username and/or password...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=1, description=incorrect username, password=qq, expectedMessage=invalid username and/or password, username=incorrectUsername})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=inva...)">
+                  </a> <!-- negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=inva...) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=invalid username and/or password, username=incorrectUsername})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({no=5, description=empty password, password=, expectedMessage=must provide password, username=Masia})">
+                  </a> <!-- negativeLogInTest({no=5, description=empty password, password=, expectedMessage=must provide password, username=Masia}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({no=5, description=empty password, password=, expectedMessage=must provide password, username=Masia})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FullUITestSuite-class-passed -->
+        </div> <!-- panel FullUITestSuite -->
+        <div panel-name="test-xml-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Magda Leonow\Downloads\ProjectTests\src\test\resources\TestSuites\FullUITestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;FullUITestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;AddToClosetTest-CH&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;index.addtoclosettests.AddToClosetTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddToClosetTest-CH --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;ChooseOutfitDressTest-CH&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;index.chooseoutfittests.ChooseOutfitDressTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChooseOutfitDressTest-CH --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;ChooseOutfitTopBottomsTest-CH&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;index.chooseoutfittests.ChooseOutfitTopBottomsTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChooseOutfitTopBottomsTest-CH --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;GetInspiredPageTest-CH&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;index.getinspiredpagetests.GetInspiredPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GetInspiredPageTest-CH --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;LogOutTest-CH&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;index.logouttests.LogOutTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogOutTest-CH --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;MyOutfitsPageTest-CH&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;index.myoutfitspagetests.MyOutfitsPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyOutfitsPageTest-CH --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;NegativeLogInTest-CH&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;index.loginpagetests.NegativeLogInTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NegativeLogInTest-CH --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;PositiveLogInTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;index.loginpagetests.PositiveLogInTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PositiveLogInTest --&gt;
+&lt;/suite&gt; &lt;!-- FullUITestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AddToClosetTest-CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChooseOutfitDressTest-CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChooseOutfitTopBottomsTest-CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">GetInspiredPageTest-CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogOutTest-CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MyOutfitsPageTest-CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NegativeLogInTest-CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PositiveLogInTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FullUITestSuite');
+function tableData_FullUITestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'myOutfitsPageTest')
+data.setCell(0, 2, 'index.myoutfitspagetests.MyOutfitsPageTests')
+data.setCell(0, 3, 161232);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getInspiredPageTest')
+data.setCell(1, 2, 'index.getinspiredpagetests.GetInspiredPageTests')
+data.setCell(1, 3, 88112);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'chooseOutfitDressTest')
+data.setCell(2, 2, 'index.chooseoutfittests.ChooseOutfitDressTests')
+data.setCell(2, 3, 85822);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'chooseOutfitTopBottomsTest')
+data.setCell(3, 2, 'index.chooseoutfittests.ChooseOutfitTopBottomsTests')
+data.setCell(3, 3, 82834);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'logInTest')
+data.setCell(4, 2, 'index.logouttests.LogOutTests')
+data.setCell(4, 3, 69143);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'chooseOutfitTopBottomsTest')
+data.setCell(5, 2, 'index.chooseoutfittests.ChooseOutfitTopBottomsTests')
+data.setCell(5, 3, 49238);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addToClosetTest')
+data.setCell(6, 2, 'index.addtoclosettests.AddToClosetTests')
+data.setCell(6, 3, 48260);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'chooseOutfitDressTest')
+data.setCell(7, 2, 'index.chooseoutfittests.ChooseOutfitDressTests')
+data.setCell(7, 3, 35521);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addToClosetTest')
+data.setCell(8, 2, 'index.addtoclosettests.AddToClosetTests')
+data.setCell(8, 3, 25768);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addToClosetTest')
+data.setCell(9, 2, 'index.addtoclosettests.AddToClosetTests')
+data.setCell(9, 3, 25591);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'logInTest')
+data.setCell(10, 2, 'index.loginpagetests.PositiveLogInTests')
+data.setCell(10, 3, 11309);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'negativeLogInTest')
+data.setCell(11, 2, 'index.loginpagetests.NegativeLogInTests')
+data.setCell(11, 3, 4815);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'negativeLogInTest')
+data.setCell(12, 2, 'index.loginpagetests.NegativeLogInTests')
+data.setCell(12, 3, 4793);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'negativeLogInTest')
+data.setCell(13, 2, 'index.loginpagetests.NegativeLogInTests')
+data.setCell(13, 3, 4655);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'negativeLogInTest')
+data.setCell(14, 2, 'index.loginpagetests.NegativeLogInTests')
+data.setCell(14, 3, 4654);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'negativeLogInTest')
+data.setCell(15, 2, 'index.loginpagetests.NegativeLogInTests')
+data.setCell(15, 3, 4539);
+window.suiteTableData['FullUITestSuite']= { tableData: data, tableDiv: 'times-div-FullUITestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-FullUITestSuite">
+              </div> <!-- times-div-FullUITestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FullUITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FullUITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">index.addtoclosettests.AddToClosetTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.addtoclosettests.AddToClosetTests.addToClosetTest(int,java.lang.String,java.lang.S...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToClosetTest(1, top5.png, tops, hot, casual)</span>
+                <span class="method-start">4224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29995 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.addtoclosettests.AddToClosetTests.addToClosetTest(int,java.lang.String,java.lang.S...)</span>
+                <span class="method-start">30767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToClosetTest(2, shoes8.png, shoes, all, party)</span>
+                <span class="method-start">34095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">82356 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.addtoclosettests.AddToClosetTests.addToClosetTest(int,java.lang.String,java.lang.S...)</span>
+                <span class="method-start">83135 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToClosetTest(3, skirt3.png, bottoms, warm, all)</span>
+                <span class="method-start">86539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">112131 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">index.chooseoutfittests.ChooseOutfitDressTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.chooseoutfittests.ChooseOutfitDressTests.chooseOutfitDressTest(java.util.Map), chr...)</span>
+                <span class="method-start">112953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">chooseOutfitDressTest({no=1, dressnumber=2, weather=warm, shoesnumber=2, type=dresses, event=casual})</span>
+                <span class="method-start">116225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">151747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.chooseoutfittests.ChooseOutfitDressTests.chooseOutfitDressTest(java.util.Map), chr...)</span>
+                <span class="method-start">152505 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">chooseOutfitDressTest({no=2, dressnumber=1, weather=all, shoesnumber=1, type=dresses, event=office})</span>
+                <span class="method-start">155865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">241688 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">index.chooseoutfittests.ChooseOutfitTopBottomsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.chooseoutfittests.ChooseOutfitTopBottomsTests.chooseOutfitTopBottomsTest(java.util...)</span>
+                <span class="method-start">242460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">chooseOutfitTopBottomsTest({no=1, bottomnumber=2, weather=cold, topnumber=1, shoesnumber=1, type=tops and bottoms, event=party})</span>
+                <span class="method-start">245997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">295237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.chooseoutfittests.ChooseOutfitTopBottomsTests.chooseOutfitTopBottomsTest(java.util...)</span>
+                <span class="method-start">295993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">chooseOutfitTopBottomsTest({no=2, bottomnumber=1, weather=hot, topnumber=5, shoesnumber=2, type=tops and bottoms, event=all})</span>
+                <span class="method-start">299379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">382215 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">index.getinspiredpagetests.GetInspiredPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.getinspiredpagetests.GetInspiredPageTests.getInspiredPageTest(), chrome, org.testn...)</span>
+                <span class="method-start">383014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getInspiredPageTest</span>
+                <span class="method-start">386457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">474570 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">index.logouttests.LogOutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.logouttests.LogOutTests.logInTest(), chrome, org.testng.TestRunner@51dcb805)</span>
+                <span class="method-start">475331 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInTest</span>
+                <span class="method-start">478735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">547879 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">index.myoutfitspagetests.MyOutfitsPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.myoutfitspagetests.MyOutfitsPageTests.myOutfitsPageTest(), chrome, org.testng.Test...)</span>
+                <span class="method-start">548658 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">myOutfitsPageTest</span>
+                <span class="method-start">552054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">713288 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">index.loginpagetests.NegativeLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util.Map), chrome, org.te...)</span>
+                <span class="method-start">714116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=1, description=incorrect username, password=qq, expectedMessage=invalid username and/or password...)</span>
+                <span class="method-start">717359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">722154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util.Map), chrome, org.te...)</span>
+                <span class="method-start">722925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=2, description=incorrect password, password=incorrectPassword, expectedMessage=invalid username ...)</span>
+                <span class="method-start">726119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">730775 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util.Map), chrome, org.te...)</span>
+                <span class="method-start">731522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=inva...)</span>
+                <span class="method-start">734898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">739553 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util.Map), chrome, org.te...)</span>
+                <span class="method-start">740318 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=4, description=empty username, password=qq, expectedMessage=must provide username, username=})</span>
+                <span class="method-start">743682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">748221 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util.Map), chrome, org.te...)</span>
+                <span class="method-start">748972 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({no=5, description=empty password, password=, expectedMessage=must provide password, username=Masia})</span>
+                <span class="method-start">752280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">757096 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">index.loginpagetests.PositiveLogInTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void index.loginpagetests.PositiveLogInTests.logInTest(), chrome, org.testng.TestRunner@1e645...)</span>
+                <span class="method-start">757844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInTest</span>
+                <span class="method-start">761196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">772507 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

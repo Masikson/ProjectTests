@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-20T20:38:47Z" name="FullUITestSuite" finished-at="2022-04-20T20:51:42Z" duration-ms="774140">
+    <groups>
+    </groups>
+    <test started-at="2022-04-20T20:38:47Z" name="AddToClosetTest-CH" finished-at="2022-04-20T20:40:41Z" duration-ms="113749">
+      <class name="index.addtoclosettests.AddToClosetTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.addtoclosettests.AddToClosetTests@1f59a598]" started-at="2022-04-20T20:38:48Z" name="setUp" finished-at="2022-04-20T20:38:53Z" duration-ms="4224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.addtoclosettests.AddToClosetTests.addToClosetTest(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@272ed83b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addToClosetTest(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:index.addtoclosettests.AddToClosetTests@1f59a598]" started-at="2022-04-20T20:38:53Z" name="addToClosetTest" data-provider="files" finished-at="2022-04-20T20:39:18Z" duration-ms="25768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[top5.png]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tops]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hot]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[casual]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToClosetTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.addtoclosettests.AddToClosetTests@1f59a598]" started-at="2022-04-20T20:39:18Z" name="tearDown" finished-at="2022-04-20T20:39:19Z" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.addtoclosettests.AddToClosetTests@1f59a598]" started-at="2022-04-20T20:39:19Z" name="setUp" finished-at="2022-04-20T20:39:22Z" duration-ms="3328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.addtoclosettests.AddToClosetTests.addToClosetTest(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@272ed83b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addToClosetTest(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:index.addtoclosettests.AddToClosetTests@1f59a598]" started-at="2022-04-20T20:39:22Z" name="addToClosetTest" data-provider="files" finished-at="2022-04-20T20:40:11Z" duration-ms="48260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shoes8.png]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[all]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[party]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToClosetTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.addtoclosettests.AddToClosetTests@1f59a598]" started-at="2022-04-20T20:40:11Z" name="tearDown" finished-at="2022-04-20T20:40:11Z" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.addtoclosettests.AddToClosetTests@1f59a598]" started-at="2022-04-20T20:40:11Z" name="setUp" finished-at="2022-04-20T20:40:15Z" duration-ms="3404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.addtoclosettests.AddToClosetTests.addToClosetTest(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@272ed83b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addToClosetTest(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:index.addtoclosettests.AddToClosetTests@1f59a598]" started-at="2022-04-20T20:40:15Z" name="addToClosetTest" data-provider="files" finished-at="2022-04-20T20:40:40Z" duration-ms="25591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[skirt3.png]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bottoms]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[warm]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[all]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToClosetTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.addtoclosettests.AddToClosetTests@1f59a598]" started-at="2022-04-20T20:40:40Z" name="tearDown" finished-at="2022-04-20T20:40:41Z" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- index.addtoclosettests.AddToClosetTests -->
+    </test> <!-- AddToClosetTest-CH -->
+    <test started-at="2022-04-20T20:40:41Z" name="ChooseOutfitDressTest-CH" finished-at="2022-04-20T20:42:51Z" duration-ms="129501">
+      <class name="index.chooseoutfittests.ChooseOutfitDressTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.chooseoutfittests.ChooseOutfitDressTests@6236eb5f]" started-at="2022-04-20T20:40:41Z" name="setUp" finished-at="2022-04-20T20:40:45Z" duration-ms="3272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.chooseoutfittests.ChooseOutfitDressTests.chooseOutfitDressTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@41fecb8b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chooseOutfitDressTest(java.util.Map)[pri:0, instance:index.chooseoutfittests.ChooseOutfitDressTests@6236eb5f]" started-at="2022-04-20T20:40:45Z" name="chooseOutfitDressTest" data-provider="csvReader" finished-at="2022-04-20T20:41:20Z" duration-ms="35521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=1, dressnumber=2, weather=warm, shoesnumber=2, type=dresses, event=casual}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseOutfitDressTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.chooseoutfittests.ChooseOutfitDressTests@6236eb5f]" started-at="2022-04-20T20:41:20Z" name="tearDown" finished-at="2022-04-20T20:41:21Z" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.chooseoutfittests.ChooseOutfitDressTests@6236eb5f]" started-at="2022-04-20T20:41:21Z" name="setUp" finished-at="2022-04-20T20:41:24Z" duration-ms="3360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.chooseoutfittests.ChooseOutfitDressTests.chooseOutfitDressTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@41fecb8b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chooseOutfitDressTest(java.util.Map)[pri:0, instance:index.chooseoutfittests.ChooseOutfitDressTests@6236eb5f]" started-at="2022-04-20T20:41:24Z" name="chooseOutfitDressTest" data-provider="csvReader" finished-at="2022-04-20T20:42:50Z" duration-ms="85822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, dressnumber=1, weather=all, shoesnumber=1, type=dresses, event=office}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseOutfitDressTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.chooseoutfittests.ChooseOutfitDressTests@6236eb5f]" started-at="2022-04-20T20:42:50Z" name="tearDown" finished-at="2022-04-20T20:42:51Z" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- index.chooseoutfittests.ChooseOutfitDressTests -->
+    </test> <!-- ChooseOutfitDressTest-CH -->
+    <test started-at="2022-04-20T20:42:51Z" name="ChooseOutfitTopBottomsTest-CH" finished-at="2022-04-20T20:45:11Z" duration-ms="140546">
+      <class name="index.chooseoutfittests.ChooseOutfitTopBottomsTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.chooseoutfittests.ChooseOutfitTopBottomsTests@f2ff811]" started-at="2022-04-20T20:42:51Z" name="setUp" finished-at="2022-04-20T20:42:54Z" duration-ms="3537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.chooseoutfittests.ChooseOutfitTopBottomsTests.chooseOutfitTopBottomsTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@120f102b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chooseOutfitTopBottomsTest(java.util.Map)[pri:0, instance:index.chooseoutfittests.ChooseOutfitTopBottomsTests@f2ff811]" started-at="2022-04-20T20:42:54Z" name="chooseOutfitTopBottomsTest" data-provider="csvReader" finished-at="2022-04-20T20:43:44Z" duration-ms="49238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=1, bottomnumber=2, weather=cold, topnumber=1, shoesnumber=1, type=tops and bottoms, event=party}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseOutfitTopBottomsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.chooseoutfittests.ChooseOutfitTopBottomsTests@f2ff811]" started-at="2022-04-20T20:43:44Z" name="tearDown" finished-at="2022-04-20T20:43:44Z" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.chooseoutfittests.ChooseOutfitTopBottomsTests@f2ff811]" started-at="2022-04-20T20:43:44Z" name="setUp" finished-at="2022-04-20T20:43:48Z" duration-ms="3386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.chooseoutfittests.ChooseOutfitTopBottomsTests.chooseOutfitTopBottomsTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@120f102b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chooseOutfitTopBottomsTest(java.util.Map)[pri:0, instance:index.chooseoutfittests.ChooseOutfitTopBottomsTests@f2ff811]" started-at="2022-04-20T20:43:48Z" name="chooseOutfitTopBottomsTest" data-provider="csvReader" finished-at="2022-04-20T20:45:10Z" duration-ms="82834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, bottomnumber=1, weather=hot, topnumber=5, shoesnumber=2, type=tops and bottoms, event=all}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseOutfitTopBottomsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.chooseoutfittests.ChooseOutfitTopBottomsTests@f2ff811]" started-at="2022-04-20T20:45:10Z" name="tearDown" finished-at="2022-04-20T20:45:11Z" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- index.chooseoutfittests.ChooseOutfitTopBottomsTests -->
+    </test> <!-- ChooseOutfitTopBottomsTest-CH -->
+    <test started-at="2022-04-20T20:45:11Z" name="GetInspiredPageTest-CH" finished-at="2022-04-20T20:46:44Z" duration-ms="92308">
+      <class name="index.getinspiredpagetests.GetInspiredPageTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.getinspiredpagetests.GetInspiredPageTests@757acd7b]" started-at="2022-04-20T20:45:11Z" name="setUp" finished-at="2022-04-20T20:45:15Z" duration-ms="3443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.getinspiredpagetests.GetInspiredPageTests.getInspiredPageTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@625732]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getInspiredPageTest()[pri:0, instance:index.getinspiredpagetests.GetInspiredPageTests@757acd7b]" started-at="2022-04-20T20:45:15Z" name="getInspiredPageTest" finished-at="2022-04-20T20:46:43Z" duration-ms="88112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInspiredPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.getinspiredpagetests.GetInspiredPageTests@757acd7b]" started-at="2022-04-20T20:46:43Z" name="tearDown" finished-at="2022-04-20T20:46:44Z" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- index.getinspiredpagetests.GetInspiredPageTests -->
+    </test> <!-- GetInspiredPageTest-CH -->
+    <test started-at="2022-04-20T20:46:44Z" name="LogOutTest-CH" finished-at="2022-04-20T20:47:57Z" duration-ms="73318">
+      <class name="index.logouttests.LogOutTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.logouttests.LogOutTests@236e3f4e]" started-at="2022-04-20T20:46:44Z" name="setUp" finished-at="2022-04-20T20:46:47Z" duration-ms="3404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.logouttests.LogOutTests.logInTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@51dcb805]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:index.logouttests.LogOutTests@236e3f4e]" started-at="2022-04-20T20:46:47Z" name="logInTest" finished-at="2022-04-20T20:47:56Z" duration-ms="69143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.logouttests.LogOutTests@236e3f4e]" started-at="2022-04-20T20:47:56Z" name="tearDown" finished-at="2022-04-20T20:47:57Z" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- index.logouttests.LogOutTests -->
+    </test> <!-- LogOutTest-CH -->
+    <test started-at="2022-04-20T20:47:57Z" name="MyOutfitsPageTest-CH" finished-at="2022-04-20T20:50:42Z" duration-ms="165443">
+      <class name="index.myoutfitspagetests.MyOutfitsPageTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.myoutfitspagetests.MyOutfitsPageTests@5552768b]" started-at="2022-04-20T20:47:57Z" name="setUp" finished-at="2022-04-20T20:48:00Z" duration-ms="3396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.myoutfitspagetests.MyOutfitsPageTests.myOutfitsPageTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@66498326]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="myOutfitsPageTest()[pri:0, instance:index.myoutfitspagetests.MyOutfitsPageTests@5552768b]" started-at="2022-04-20T20:48:00Z" name="myOutfitsPageTest" finished-at="2022-04-20T20:50:42Z" duration-ms="161232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myOutfitsPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.myoutfitspagetests.MyOutfitsPageTests@5552768b]" started-at="2022-04-20T20:50:42Z" name="tearDown" finished-at="2022-04-20T20:50:42Z" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- index.myoutfitspagetests.MyOutfitsPageTests -->
+    </test> <!-- MyOutfitsPageTest-CH -->
+    <test started-at="2022-04-20T20:50:42Z" name="NegativeLogInTest-CH" finished-at="2022-04-20T20:51:26Z" duration-ms="43724">
+      <class name="index.loginpagetests.NegativeLogInTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:50:42Z" name="setUp" finished-at="2022-04-20T20:50:46Z" duration-ms="3243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@cad498c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeLogInTest(java.util.Map)[pri:1, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:50:46Z" name="negativeLogInTest" data-provider="csvReader" finished-at="2022-04-20T20:50:50Z" duration-ms="4793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=1, description=incorrect username, password=qq, expectedMessage=invalid username and/or password, username=incorrectUsername}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:50:50Z" name="tearDown" finished-at="2022-04-20T20:50:51Z" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:50:51Z" name="setUp" finished-at="2022-04-20T20:50:54Z" duration-ms="3194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@cad498c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeLogInTest(java.util.Map)[pri:1, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:50:54Z" name="negativeLogInTest" data-provider="csvReader" finished-at="2022-04-20T20:50:59Z" duration-ms="4655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, description=incorrect password, password=incorrectPassword, expectedMessage=invalid username and/or password, username=Masia}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:50:59Z" name="tearDown" finished-at="2022-04-20T20:51:00Z" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:51:00Z" name="setUp" finished-at="2022-04-20T20:51:03Z" duration-ms="3376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@cad498c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeLogInTest(java.util.Map)[pri:1, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:51:03Z" name="negativeLogInTest" data-provider="csvReader" finished-at="2022-04-20T20:51:08Z" duration-ms="4654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=3, description=incorrect username and password, password=incorrectPassword, expectedMessage=invalid username and/or password, username=incorrectUsername}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:51:08Z" name="tearDown" finished-at="2022-04-20T20:51:09Z" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:51:09Z" name="setUp" finished-at="2022-04-20T20:51:12Z" duration-ms="3364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@cad498c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeLogInTest(java.util.Map)[pri:1, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:51:12Z" name="negativeLogInTest" data-provider="csvReader" finished-at="2022-04-20T20:51:17Z" duration-ms="4539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=4, description=empty username, password=qq, expectedMessage=must provide username, username=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:51:17Z" name="tearDown" finished-at="2022-04-20T20:51:17Z" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:51:17Z" name="setUp" finished-at="2022-04-20T20:51:21Z" duration-ms="3308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.loginpagetests.NegativeLogInTests.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@cad498c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeLogInTest(java.util.Map)[pri:1, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:51:21Z" name="negativeLogInTest" data-provider="csvReader" finished-at="2022-04-20T20:51:25Z" duration-ms="4815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=5, description=empty password, password=, expectedMessage=must provide password, username=Masia}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.loginpagetests.NegativeLogInTests@53aad5d5]" started-at="2022-04-20T20:51:25Z" name="tearDown" finished-at="2022-04-20T20:51:26Z" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- index.loginpagetests.NegativeLogInTests -->
+    </test> <!-- NegativeLogInTest-CH -->
+    <test started-at="2022-04-20T20:51:26Z" name="PositiveLogInTest" finished-at="2022-04-20T20:51:42Z" duration-ms="15443">
+      <class name="index.loginpagetests.PositiveLogInTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:index.loginpagetests.PositiveLogInTests@6f27a732]" started-at="2022-04-20T20:51:26Z" name="setUp" finished-at="2022-04-20T20:51:29Z" duration-ms="3352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void index.loginpagetests.PositiveLogInTests.logInTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e6454ec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:index.loginpagetests.PositiveLogInTests@6f27a732]" started-at="2022-04-20T20:51:29Z" name="logInTest" finished-at="2022-04-20T20:51:41Z" duration-ms="11309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:index.loginpagetests.PositiveLogInTests@6f27a732]" started-at="2022-04-20T20:51:41Z" name="tearDown" finished-at="2022-04-20T20:51:42Z" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- index.loginpagetests.PositiveLogInTests -->
+    </test> <!-- PositiveLogInTest -->
+  </suite> <!-- FullUITestSuite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ChooseOutfitTestSuite" verbose="1">
+ 
+	<test name="ChooseOutfitDressTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="index.chooseoutfittests.ChooseOutfitDressTests"></class>
+		</classes>
+	</test>
+
+	<test name="ChooseOutfitTopBottomsTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="index.chooseoutfittests.ChooseOutfitTopBottomsTests"></class>
+		</classes>
+	</test>
+
+</suite>

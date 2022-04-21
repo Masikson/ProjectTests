@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ChooseOutfitTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChooseOutfitTopBottomsTest-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="index.chooseoutfittests.ChooseOutfitTopBottomsTests">
+        <methods>
+          <include name="chooseOutfitTopBottomsTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- index.chooseoutfittests.ChooseOutfitTopBottomsTests -->
+    </classes>
+  </test> <!-- ChooseOutfitTopBottomsTest-CH(failed) -->
+</suite> <!-- Failed suite [ChooseOutfitTestSuite] -->

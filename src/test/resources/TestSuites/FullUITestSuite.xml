@@ -1,0 +1,66 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FullUITestSuite" verbose="1" parallel = "tests" thread-count="4">
+	
+	<test name="AddToClosetTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="index.addtoclosettests.AddToClosetTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="ChooseOutfitDressTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="index.chooseoutfittests.ChooseOutfitDressTests"></class>
+		</classes>
+	</test>
+
+	<test name="ChooseOutfitTopBottomsTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="index.chooseoutfittests.ChooseOutfitTopBottomsTests"></class>
+		</classes>
+	</test>
+
+	<test name="GetInspiredPageTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="index.getinspiredpagetests.GetInspiredPageTests">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LogOutTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="index.logouttests.LogOutTests" />
+		</classes>
+	</test>
+
+	<test name="MyOutfitsPageTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="index.myoutfitspagetests.MyOutfitsPageTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="NegativeLogInTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="index.loginpagetests.NegativeLogInTests">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="PositiveLogInTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="index.loginpagetests.PositiveLogInTests" />
+		</classes>
+	</test>
+
+
+</suite>

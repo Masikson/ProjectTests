@@ -1,0 +1,6 @@
+no,username,password,expectedMessage,description
+1,incorrectUsername,qq,invalid username and/or password,incorrect username
+2,Masia,incorrectPassword,invalid username and/or password,incorrect password
+3,incorrectUsername,incorrectPassword,invalid username and/or password,incorrect username and password
+4,,qq,must provide username,empty username
+5,Masia,,must provide password,empty password

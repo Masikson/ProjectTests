@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [FullUITestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="ChooseOutfitDressTest-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="index.chooseoutfittests.ChooseOutfitDressTests">
+        <methods>
+          <include name="chooseOutfitDressTest" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- index.chooseoutfittests.ChooseOutfitDressTests -->
+    </classes>
+  </test> <!-- ChooseOutfitDressTest-CH(failed) -->
+  <test thread-count="2" parallel="tests" name="AddToClosetTest-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="index.addtoclosettests.AddToClosetTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="addToClosetTest" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- index.addtoclosettests.AddToClosetTests -->
+    </classes>
+  </test> <!-- AddToClosetTest-CH(failed) -->
+  <test thread-count="2" parallel="tests" name="GetInspiredPageTest-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="index.getinspiredpagetests.GetInspiredPageTests">
+        <methods>
+          <include name="getInspiredPageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- index.getinspiredpagetests.GetInspiredPageTests -->
+    </classes>
+  </test> <!-- GetInspiredPageTest-CH(failed) -->
+  <test thread-count="2" parallel="tests" name="ChooseOutfitTopBottomsTest-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="index.chooseoutfittests.ChooseOutfitTopBottomsTests">
+        <methods>
+          <include name="chooseOutfitTopBottomsTest" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- index.chooseoutfittests.ChooseOutfitTopBottomsTests -->
+    </classes>
+  </test> <!-- ChooseOutfitTopBottomsTest-CH(failed) -->
+  <test thread-count="2" parallel="tests" name="MyOutfitsPageTest-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="index.myoutfitspagetests.MyOutfitsPageTests">
+        <methods>
+          <include name="myOutfitsPageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- index.myoutfitspagetests.MyOutfitsPageTests -->
+    </classes>
+  </test> <!-- MyOutfitsPageTest-CH(failed) -->
+</suite> <!-- Failed suite [FullUITestSuite] -->
